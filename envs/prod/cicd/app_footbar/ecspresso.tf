@@ -40,6 +40,10 @@ data "aws_subnet" "private" {
   }
 }
 
+data "aws_security_group" "db_foobar" {
+  name = "${local.name_prefix}-main-db-foobar"
+}
+
 variable "azs" {
   type = map(object({
     public_cidr  = string
