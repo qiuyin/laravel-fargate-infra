@@ -81,6 +81,7 @@ resource "aws_iam_role_policy" "ecs" {
           "Effect" : "Allow",
           "Action" : [
             "ecs:RegisterTaskDefinition",
+            "ecs:ListTaskDefinitions",
             "ecs:TagResource"
           ],
           "Resource" : "*"
