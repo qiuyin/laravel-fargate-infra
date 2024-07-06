@@ -11,6 +11,7 @@ resource "aws_ecs_cluster" "this" {
   }
 }
 
+/* managed by https://github.com/shonansurvivors/laravel-fargate-app/ecspresso
 resource "aws_ecs_task_definition" "this" {
   family = "${local.name_prefix}-${local.service_name}"
 
@@ -151,3 +152,4 @@ resource "aws_ecs_service" "this" {
     Name = "${local.name_prefix}-${local.service_name}"
   }
 }
+*/
