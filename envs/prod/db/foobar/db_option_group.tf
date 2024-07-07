@@ -7,4 +7,4 @@ resource "aws_db_option_group" "this" {
   tags = {
     Name = "${local.system_name}-${local.env_name}-${local.service_name}"
   }
-}
+} 

@@ -2,6 +2,7 @@
 - laravel-fargate-infra/envs/prod/cicd/app_footbar
 - laravel-fargate-infra/envs/prod/network/main
 - laravel-fargate-infra/envs/prod/routing/appfoobar_link
+- laravel-fargate-infra/envs/prod/cicd/app_footbar
 
 https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/install-plugin-macos-overview.html
 
